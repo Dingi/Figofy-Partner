@@ -36,7 +36,7 @@ class DataService {
         return _REF_USERS
     }
     
-    var REF_PAYMENT_REGISTER: Firebase{
+    var REF_PAYMENT: Firebase{
         return _REF_PAYMENT_REGISTER
     }
     var REF_PARTNER: Firebase{

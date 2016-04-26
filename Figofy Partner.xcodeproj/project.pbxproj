@@ -19,6 +19,9 @@
 		FF3D7DEB1CCF6B4100A20E87 /* System San Francisco Display Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3D7DE71CCF6B4100A20E87 /* System San Francisco Display Ultralight.ttf */; };
 		FF3D7DEC1CCF6B4100A20E87 /* System San Francisco Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3D7DE81CCF6B4100A20E87 /* System San Francisco Display Bold.ttf */; };
 		FF3D7DED1CCF6B4100A20E87 /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3D7DE91CCF6B4100A20E87 /* System San Francisco Display Regular.ttf */; };
+		FF3D7DF71CCF741800A20E87 /* Partner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D7DF61CCF741800A20E87 /* Partner.swift */; };
+		FF3D7DF91CCF8A3000A20E87 /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D7DF81CCF8A3000A20E87 /* PaymentsVC.swift */; };
+		FF3D7DFB1CCF8DB900A20E87 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D7DFA1CCF8DB900A20E87 /* Payment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		FF3D7DE71CCF6B4100A20E87 /* System San Francisco Display Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Ultralight.ttf"; sourceTree = "<group>"; };
 		FF3D7DE81CCF6B4100A20E87 /* System San Francisco Display Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Bold.ttf"; sourceTree = "<group>"; };
 		FF3D7DE91CCF6B4100A20E87 /* System San Francisco Display Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Regular.ttf"; sourceTree = "<group>"; };
+		FF3D7DF61CCF741800A20E87 /* Partner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
+		FF3D7DF81CCF8A3000A20E87 /* PaymentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
+		FF3D7DFA1CCF8DB900A20E87 /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				FF1324611CCF57D70092ED46 /* LoginVC.swift */,
+				FF3D7DF81CCF8A3000A20E87 /* PaymentsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -142,6 +149,8 @@
 		FF3D7DF41CCF6F7800A20E87 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF3D7DF61CCF741800A20E87 /* Partner.swift */,
+				FF3D7DFA1CCF8DB900A20E87 /* Payment.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,8 +291,11 @@
 			files = (
 				65DB091C1CCF70A200541EC9 /* DataService.swift in Sources */,
 				FF1324621CCF57D70092ED46 /* LoginVC.swift in Sources */,
+				FF3D7DFB1CCF8DB900A20E87 /* Payment.swift in Sources */,
+				FF3D7DF71CCF741800A20E87 /* Partner.swift in Sources */,
 				FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */,
 				65DB091F1CCF71C200541EC9 /* Constants.swift in Sources */,
+				FF3D7DF91CCF8A3000A20E87 /* PaymentsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
