@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13245F1CCF57D70092ED46 /* AppDelegate.swift */; };
-		FF1324621CCF57D70092ED46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1324611CCF57D70092ED46 /* ViewController.swift */; };
+		FF1324621CCF57D70092ED46 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1324611CCF57D70092ED46 /* LoginVC.swift */; };
 		FF1324651CCF57D70092ED46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1324631CCF57D70092ED46 /* Main.storyboard */; };
 		FF1324671CCF57D70092ED46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1324661CCF57D70092ED46 /* Assets.xcassets */; };
 		FF13246A1CCF57D70092ED46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1324681CCF57D70092ED46 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		FF13245C1CCF57D70092ED46 /* Figofy Partner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Figofy Partner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF13245F1CCF57D70092ED46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF1324611CCF57D70092ED46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF1324611CCF57D70092ED46 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FF1324641CCF57D70092ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1324661CCF57D70092ED46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1324691CCF57D70092ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		FF13245E1CCF57D70092ED46 /* Figofy Partner */ = {
 			isa = PBXGroup;
 			children = (
+				FF1324731CCF5FAE0092ED46 /* View */,
+				FF1324721CCF5FA50092ED46 /* Model */,
+				FF1324711CCF5F9E0092ED46 /* Controller */,
 				FF13245F1CCF57D70092ED46 /* AppDelegate.swift */,
-				FF1324611CCF57D70092ED46 /* ViewController.swift */,
 				FF1324631CCF57D70092ED46 /* Main.storyboard */,
 				FF1324661CCF57D70092ED46 /* Assets.xcassets */,
 				FF1324681CCF57D70092ED46 /* LaunchScreen.storyboard */,
 				FF13246B1CCF57D70092ED46 /* Info.plist */,
 			);
 			path = "Figofy Partner";
+			sourceTree = "<group>";
+		};
+		FF1324711CCF5F9E0092ED46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF1324611CCF57D70092ED46 /* LoginVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF1324721CCF5FA50092ED46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF1324731CCF5FAE0092ED46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1324621CCF57D70092ED46 /* ViewController.swift in Sources */,
+				FF1324621CCF57D70092ED46 /* LoginVC.swift in Sources */,
 				FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
