@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DB091C1CCF70A200541EC9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB091B1CCF70A200541EC9 /* DataService.swift */; };
+		65DB091F1CCF71C200541EC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB091E1CCF71C200541EC9 /* Constants.swift */; };
 		D8A11B7039E97E7D284FDC53 /* Pods_Figofy_Partner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56FA97FE319CD92FD3C0BB2 /* Pods_Figofy_Partner.framework */; };
 		FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13245F1CCF57D70092ED46 /* AppDelegate.swift */; };
 		FF1324621CCF57D70092ED46 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1324611CCF57D70092ED46 /* LoginVC.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65DB091B1CCF70A200541EC9 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		65DB091E1CCF71C200541EC9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6CE83D143A5B487205929BEE /* Pods-Figofy Partner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Figofy Partner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Figofy Partner/Pods-Figofy Partner.release.xcconfig"; sourceTree = "<group>"; };
 		C56FA97FE319CD92FD3C0BB2 /* Pods_Figofy_Partner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Figofy_Partner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C925B502977C4C0F48054D26 /* Pods-Figofy Partner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Figofy Partner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Figofy Partner/Pods-Figofy Partner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		65DB091D1CCF719B00541EC9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				65DB091E1CCF71C200541EC9 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		7F499DB372B9789C1995FC49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +98,7 @@
 		FF13245E1CCF57D70092ED46 /* Figofy Partner */ = {
 			isa = PBXGroup;
 			children = (
+				65DB091D1CCF719B00541EC9 /* Util */,
 				FF3D7DF51CCF6F8000A20E87 /* Services */,
 				FF3D7DF41CCF6F7800A20E87 /* Model */,
 				FF3D7DF21CCF6F5E00A20E87 /* View */,
@@ -136,6 +149,7 @@
 		FF3D7DF51CCF6F8000A20E87 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				65DB091B1CCF70A200541EC9 /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -266,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DB091C1CCF70A200541EC9 /* DataService.swift in Sources */,
 				FF1324621CCF57D70092ED46 /* LoginVC.swift in Sources */,
 				FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */,
+				65DB091F1CCF71C200541EC9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
