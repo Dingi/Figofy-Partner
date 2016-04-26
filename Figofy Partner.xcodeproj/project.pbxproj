@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13245F1CCF57D70092ED46 /* AppDelegate.swift */; };
+		FF1324621CCF57D70092ED46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1324611CCF57D70092ED46 /* ViewController.swift */; };
+		FF1324651CCF57D70092ED46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1324631CCF57D70092ED46 /* Main.storyboard */; };
+		FF1324671CCF57D70092ED46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1324661CCF57D70092ED46 /* Assets.xcassets */; };
+		FF13246A1CCF57D70092ED46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1324681CCF57D70092ED46 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF13245C1CCF57D70092ED46 /* Figofy Partner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Figofy Partner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF13245F1CCF57D70092ED46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF1324611CCF57D70092ED46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF1324641CCF57D70092ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1324661CCF57D70092ED46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1324691CCF57D70092ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF13246B1CCF57D70092ED46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1324591CCF57D70092ED46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1324531CCF57D70092ED46 = {
+			isa = PBXGroup;
+			children = (
+				FF13245E1CCF57D70092ED46 /* Figofy Partner */,
+				FF13245D1CCF57D70092ED46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF13245D1CCF57D70092ED46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF13245C1CCF57D70092ED46 /* Figofy Partner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF13245E1CCF57D70092ED46 /* Figofy Partner */ = {
+			isa = PBXGroup;
+			children = (
+				FF13245F1CCF57D70092ED46 /* AppDelegate.swift */,
+				FF1324611CCF57D70092ED46 /* ViewController.swift */,
+				FF1324631CCF57D70092ED46 /* Main.storyboard */,
+				FF1324661CCF57D70092ED46 /* Assets.xcassets */,
+				FF1324681CCF57D70092ED46 /* LaunchScreen.storyboard */,
+				FF13246B1CCF57D70092ED46 /* Info.plist */,
+			);
+			path = "Figofy Partner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF13245B1CCF57D70092ED46 /* Figofy Partner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF13246E1CCF57D70092ED46 /* Build configuration list for PBXNativeTarget "Figofy Partner" */;
+			buildPhases = (
+				FF1324581CCF57D70092ED46 /* Sources */,
+				FF1324591CCF57D70092ED46 /* Frameworks */,
+				FF13245A1CCF57D70092ED46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Figofy Partner";
+			productName = "Figofy Partner";
+			productReference = FF13245C1CCF57D70092ED46 /* Figofy Partner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1324541CCF57D70092ED46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Figofy;
+				TargetAttributes = {
+					FF13245B1CCF57D70092ED46 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FF1324571CCF57D70092ED46 /* Build configuration list for PBXProject "Figofy Partner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1324531CCF57D70092ED46;
+			productRefGroup = FF13245D1CCF57D70092ED46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF13245B1CCF57D70092ED46 /* Figofy Partner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF13245A1CCF57D70092ED46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF13246A1CCF57D70092ED46 /* LaunchScreen.storyboard in Resources */,
+				FF1324671CCF57D70092ED46 /* Assets.xcassets in Resources */,
+				FF1324651CCF57D70092ED46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1324581CCF57D70092ED46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1324621CCF57D70092ED46 /* ViewController.swift in Sources */,
+				FF1324601CCF57D70092ED46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF1324631CCF57D70092ED46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1324641CCF57D70092ED46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1324681CCF57D70092ED46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1324691CCF57D70092ED46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF13246C1CCF57D70092ED46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF13246D1CCF57D70092ED46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF13246F1CCF57D70092ED46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Figofy Partner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy.Figofy-Partner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1324701CCF57D70092ED46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Figofy Partner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy.Figofy-Partner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1324571CCF57D70092ED46 /* Build configuration list for PBXProject "Figofy Partner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF13246C1CCF57D70092ED46 /* Debug */,
+				FF13246D1CCF57D70092ED46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF13246E1CCF57D70092ED46 /* Build configuration list for PBXNativeTarget "Figofy Partner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF13246F1CCF57D70092ED46 /* Debug */,
+				FF1324701CCF57D70092ED46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1324541CCF57D70092ED46 /* Project object */;
+}
