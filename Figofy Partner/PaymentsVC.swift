@@ -59,16 +59,17 @@ class PaymentsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 //print(partnerData.seaId)
                 DataService.dataService.REF_SEAS.childByAppendingPath(partnerData.seaId).childByAppendingPath("payment").observeEventType(.ChildAdded, withBlock: {snapshot in
                     //print(snapshot)
+                    
                     DataService.dataService.REF_PAYMENT.childByAppendingPath(snapshot.key).observeEventType(.Value, withBlock: { paySnap in
                         //print(paySnap)
                         if let payDict = paySnap.value as? Dictionary<String, AnyObject>{
                             let payData = Payment(postKey: snapshot.key, dictionary: payDict)
                             self.payments.append(payData)
-                        
-                       
-                                                    }
-                        self.payments = self.payments.reverse()
-                        self.tableView.reloadData()
+                            //print("\(self.payments[0].time_created)")
+                            
+                            
+                        }
+                        self.sortListByTimeCreated()
                     })
                 })
             }
@@ -78,7 +79,11 @@ class PaymentsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         
     }
-      
+    func sortListByTimeCreated(){
+        payments.sortInPlace({$0.time_created > $1.time_created})
+        self.tableView.reloadData()
+    }
+    
     
     
     

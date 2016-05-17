@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					FF13245B1CCF57D70092ED46 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 57A28JUWJJ;
+						DevelopmentTeam = KGH9V264AH;
 					};
 				};
 			};
@@ -426,9 +426,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Figofy Partner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy.Figofy-Partner";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "dd7aa89a-2a92-4d7a-9343-0b32bd72d21c";
 			};
 			name = Debug;
 		};
@@ -441,9 +441,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Figofy Partner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy.Figofy-Partner";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.partner-figofy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "dd7aa89a-2a92-4d7a-9343-0b32bd72d21c";
 			};
 			name = Release;
 		};

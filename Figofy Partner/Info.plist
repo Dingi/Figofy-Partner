@@ -22,6 +22,13 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>System San Francisco Display Thin.ttf</string>
+		<string>System San Francisco Display Ultralight.ttf</string>
+		<string>System San Francisco Display Bold.ttf</string>
+		<string>System San Francisco Display Regular.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -35,13 +42,6 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>System San Francisco Display Thin.ttf</string>
-		<string>System San Francisco Display Ultralight.ttf</string>
-		<string>System San Francisco Display Bold.ttf</string>
-		<string>System San Francisco Display Regular.ttf</string>
 	</array>
 </dict>
 </plist>
